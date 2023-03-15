@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background: #000000;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.arrowandback {
+    display: flex;
+    color: white;
+    padding: 70px;
+    flex-direction: row;
+}
+
+.back {
+    margin-left: 18px;
+}
+
+header a{
+    text-decoration-line: none;
+    color: white;
+    width: 74px;
+    height: 38px;
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 38px;
+}
+
+main{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 350px;
+}
+
+.cameraproductandloremtext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 102px;
+}
+
+.title{
+    width: 70%;
+    font-weight: 400;
+    font-size: 80px;
+    text-align: center;
+    padding-bottom: 50px;
+    color: white;
+}
+
+.camerapicture img{
+    height: 752px;
+    object-fit: cover;
+    object-position: 50%;
+    width: 1200px;
+}
+
+.first_lorem_text{
+    width: 75%;
+    font-weight: 300;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+.second_segment{
+    width: 85%;
+    height: 40%;
+    display: grid;
+    grid-template-rows: 1fr auto 1fr;
+    grid-template-columns: repeat(1fr 1fr);
+    color: white;
+}
+
+.second_image img {
+    width: 500px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.first_image  img{
+    width: 500px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.first_image_text{
+    padding: 0px 0px 200px 20px;
+    font-weight: 300;
+    font-size: 30px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    text-align: start;
+    color: white;
+}
+
+.second_image{
+    padding-left: 20px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: span 4;
+}
+
+.second_image_text{
+    font-weight: 300;
+    font-size: 30px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    text-align: end;
+    color: white;
+}
+
+.woman img{
+    width: 323px;
+    height: 410px;
+}
+
+.review_title{
+    padding-bottom: 60px;
+    font-weight: 400;
+    font-size: 74px;
+    color: white;
+}
+
+.reviews{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 15em;
+    color: white;
+}
+
+.review{
+    display: flex;
+    color: white;
+}
+
+.user_info{
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+    color: white;
+}
+
+.text_title{
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 58px;
+    color: white;
+}
+
+.review_text{
+    margin: 0 20px;
+    font-weight: 300;
+    font-size: 30px;
+    color: white;
+}
+
+.SomecompanyCEO{
+    padding-top: 12px;
+    font-weight: 300;
+    font-size: 22px;
+    color: white;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 22.5px 90.15px 22.5px 100.68px;
+}
+
+.left-bar {
+    height: auto;
+    width: 148px;
+    text-align: center;
+}
+
+.left-bar p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.right-bar ul {
+    display: flex;
+    width: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 98.81px;
+}
+
+.right-bar ul li {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    list-style-type: none;
+}
+

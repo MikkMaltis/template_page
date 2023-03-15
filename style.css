@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background: #000000;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.logo {
+    width: 63px;
+    height: 27px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    padding: 0 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3.4rem;
+    padding: 0 20px;
+}
+
+.main {
+    width: 100%;
+    height: auto;
+    left: 345.99px;
+    top: 337.04px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.first-text {
+    font-weight: 400;
+    font-size: 34.8438px;
+    line-height: 33px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0 auto;
+    width: 750.29px;
+}
+
+.portfolio-container {
+    display: flex;
+    justify-content: center;
+    margin: 286.17px 0 0;
+    color: white;
+    font-family: 'Inter';
+    font-size: 40px;
+    margin-bottom: 80px;
+}
+
+.picture-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 69px;
+}
+
+.picture-item{
+    width: 563.57px;
+    height: 544.16px;
+}
+
+.picture-item2{
+    width: 564.51px;
+    height: 544.16px;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 60px;
+    margin-bottom: 40px;
+
+}
+
+.lorem-box {
+    display: flex;
+    color: white;
+    font-family: 'Inter';
+    justify-content: center;
+    font-size: 31.38px;
+    text-align: center;
+    margin: 0 80px;
+}
+
+.picture-container2 {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    margin: 260px 0 0;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 60px;
+    margin-bottom: 60px;
+}
+
+.whole-big-service-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 80px;
+}
+
+.service-container {
+
+    padding: 60px;
+    background-color: #F2F2F2;
+    font-size: 20px;
+    color: black;
+}
+
+.service-container2 {
+
+    padding: 60px;
+    background-color: #E2E2E2;
+    font-size: 20px;
+    color: black;
+}
+
+.service-container3 {
+
+    padding: 60px;
+    background-color: #C0C0C0;
+    font-size: 20px;
+    color: black;
+}
+
+.service-container4 {
+    padding: 60px;
+    background-color: #B4B4B4;
+    font-size: 20px;
+    color: black;
+}
+
+.lorem {
+    padding-bottom: 30px;
+}
+
+.lorem2 {
+    padding-bottom: 90px;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    margin: 240px 0 0;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 60px;
+    margin-bottom: 60px;
+}
+
+.contactemail {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    font-family: 'Inter';
+}
+
+.phonenumber {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    font-family: 'Inter';
+    margin-bottom: 10rem;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 22.5px 90.15px 22.5px 100.68px;
+}
+
+.left-bar {
+    height: auto;
+    width: 148px;
+    text-align: center;
+}
+
+.left-bar p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.right-bar ul {
+    display: flex;
+    width: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 98.81px;
+}
+
+.right-bar ul li {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    list-style-type: none;
+}
+
